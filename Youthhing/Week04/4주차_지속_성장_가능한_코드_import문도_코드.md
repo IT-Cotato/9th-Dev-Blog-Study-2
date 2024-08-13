@@ -276,6 +276,7 @@ public ResponseEntity<JoinResponse> createMembers(@RequestBody JoinRequest reque
 
 기능이 추가되고, DTO가 많아져 감에 따라 계층간 데이터를 전달하는 오브젝트를 구분할 필요성을 느끼고 있었는데, 계층형 구조로 패키징을 하는 만큼 빠르게 적용하며 이어서 추가되는 기획에 대해 안정적인 서비스를 하도록 노력하고 언젠가 N년이 지나 동아리가 성장해 새로운 팀원이 들어오거나, 특정 서비스를 물려주게 될 때 문제 없는 코드를 작성해가고 싶다.
 
+<br>
 참고자료
 
 [지속-성장-가능한-코드-medium](https://geminikims.medium.com/%EC%A7%80%EC%86%8D-%EC%84%B1%EC%9E%A5-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EB%B0%A9%EB%B2%95-97844c5dab63)
